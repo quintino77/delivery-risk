@@ -157,12 +157,7 @@ app.py                  Interface Streamlit
  .github/workflows/     Integração contínua
 ```
 
-## Publicação e apresentação
 
-- [Guia para publicar no GitHub](docs/GITHUB_GUIDE.md)
-- [Texto para LinkedIn](docs/LINKEDIN.md)
-- [Como explicar o projeto em uma entrevista](docs/INTERVIEW.md)
-- [Dicionário de atributos](docs/DATA_DICTIONARY.md)
 
 ## Limitações e evolução
 
