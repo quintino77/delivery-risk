@@ -1,0 +1,89 @@
+{
+  "data": {
+    "source_orders": 99441,
+    "eligible_orders": 89852,
+    "excluded_orders": 9589,
+    "late_rate": 0.06831233584116102
+  },
+  "selected_model": "gradient_boosting",
+  "threshold": 0.07582791702977076,
+  "seed": 42,
+  "validation_average_precision": {
+    "baseline": 0.10878623188405798,
+    "logistic_regression": 0.2499963889336141,
+    "gradient_boosting": 0.2544638370234856
+  },
+  "test": {
+    "average_precision": 0.0749629501940377,
+    "roc_auc": 0.6756299972767441,
+    "precision": 0.07178378378378378,
+    "recall": 0.4598337950138504,
+    "f1": 0.12418178417804376,
+    "brier": 0.036772547729914735,
+    "alert_rate": 0.24340824167149097,
+    "confusion_matrix": [
+      [
+        13986,
+        4293
+      ],
+      [
+        390,
+        332
+      ]
+    ]
+  },
+  "baseline_test": {
+    "average_precision": 0.03799800010525762,
+    "roc_auc": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.03671586724423657,
+    "alert_rate": 0.0,
+    "confusion_matrix": [
+      [
+        18279,
+        0
+      ],
+      [
+        722,
+        0
+      ]
+    ]
+  },
+  "splits": {
+    "train": {
+      "rows": 53377,
+      "start": "2017-01-05 11:56:06",
+      "end": "2018-02-27 09:53:16",
+      "late_rate": 0.0507147273170092
+    },
+    "validation": {
+      "rows": 11040,
+      "start": "2018-03-01 00:00:00",
+      "end": "2018-04-27 13:06:08",
+      "late_rate": 0.10878623188405798
+    },
+    "test": {
+      "rows": 19001,
+      "start": "2018-05-01 00:02:11",
+      "end": "2018-07-31 23:54:20",
+      "late_rate": 0.03799800010525762
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "sklearn": "1.7.2"
+  },
+  "source_sha256": {
+    "olist_customers_dataset.csv": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2",
+    "olist_geolocation_dataset.csv": "b514f6fc991b9566aeba02aa5d67e2c3630f034b60a0e05aa0d082a3b66d88d6",
+    "olist_order_items_dataset.csv": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279",
+    "olist_order_payments_dataset.csv": "4f713964f2815dbbaa40b9488268c55aac3627bfce5aa96cf58d1f3616de3cc0",
+    "olist_order_reviews_dataset.csv": "012b61c7593e34f51fa614efdf802b9c7056ce6aae5307ddb93236e7cfc797d7",
+    "olist_orders_dataset.csv": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+    "olist_products_dataset.csv": "3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc",
+    "olist_sellers_dataset.csv": "1f643d2b950373b85735e7794b20986f528d7a000432e7c6f9bcbb44d0846a0e",
+    "product_category_name_translation.csv": "a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278"
+  }
+}
